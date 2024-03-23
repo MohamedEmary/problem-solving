@@ -1,16 +1,10 @@
 class Solution:
-    def groupAnagrams(self, strs: list[str]) -> list[list[str]]:
-        myHash = defaultdict(list)
-        for word in strs:
-            # List of 26 places of zeros which are the english letters
-            letters = [0] * 26
-            for letter in word:
-                letters[ord(letter) - ord('a')] += 1
-            myHash[tuple(letters)].append(word)
-        # for word in strs:
-        #     # List of 26 places of zeros which are the english letters
-        #     letters = [0] * 26
-        #     for letter in word:
-        #         letters[ord(letter) - ord('a')] += 1
-        #     myHash[tuple(letters)].append(word)
-        return list(myHash.values())
+    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+        ans = collections.defaultdict(list)
+
+        for s in strs:
+            count = [0] * 26
+            for c in s:
+                count[ord(c) - ord("a")] += 1
+            ans[tuple(count)].append(s)
+        return ans.values()
