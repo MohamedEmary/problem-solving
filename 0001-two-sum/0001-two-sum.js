@@ -4,29 +4,14 @@
  * @return {number[]}
  */
 var twoSum = function(nums, target) {
-  
-  const dict = new Map();
-  let index = 0;
-  for (const num of nums) {
-    if (dict.get(num)) {
-      dict.get(num).push(index);
-      // console.log(num, dict);
-    } else {
-      dict.set(num, [index]);
-    }
-    index++;
+  let l = 0;
+  let r = nums.length - 1;
+  const sorted = [...nums].sort((a, b) => a - b);
+  while (true) {
+    const sum = sorted[l] + sorted[r];
+    if (sum === target) break;
+    sum > target ? r-- : l++;
   }
 
-  for (const num of nums) {
-    if (dict.has(target - num)) {
-      if (dict.get(num) !== dict.get(target - num)) {
-        return [dict.get(num)[0], dict.get(target - num)[0]];
-      } else if (
-        dict.get(num) === dict.get(target - num) &&
-        dict.get(target - num).length > 1
-      ) {
-        return [dict.get(num)[0], dict.get(target - num)[1]];
-      }
-    }
-  }
+  return [nums.indexOf(sorted[l]), nums.lastIndexOf(sorted[r])];
 };
