@@ -4,27 +4,21 @@
  */
 var productExceptSelf = function (nums) {
 
-    if (nums.length === 1) return nums;
+  let prefix = [nums[0]];
+  nums.forEach((num, i) =>
+    i !== 0 ? prefix.push(prefix[prefix.length - 1] * num) : ""
+  );
 
-    let product = 1;
-    let zeroCount = 0;
-    let productNoZero = 1;
-    // let oneZeroFlag = false;
-    for (const num of nums) {
-        if (num === 0) zeroCount += 1;
-        product *= num;
-        if (num !== 0 && zeroCount <= 1) productNoZero *= num;
-    }
+  let postfix = [nums[nums.length - 1]];
+  for (let i = nums.length - 2; i >= 0; i--) {
+    postfix.unshift(nums[i] * postfix[0]);
+  }
 
-    if (zeroCount > 1) return new Array(nums.length).fill(0);
-    if (zeroCount === 1) {
-        const res = new Array(nums.length).fill(0);
-        res[nums.indexOf(0)] = productNoZero;
-        return res;
-    } else {
-        const res = [];
-        for (const num of nums) res.push(product / num);
-        return res;
-    }
-
+  const res = [];
+  for (let i = 0; i < nums.length; i++) {
+    if (i === 0) res.push(postfix[1]);
+    else if (i === nums.length - 1) res.push(prefix[i - 1]);
+    else res.push(prefix[i - 1] * postfix[i + 1]);
+  }
+  return res;
 };
