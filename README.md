@@ -24,6 +24,7 @@ The place where I add my LeetCode and Codeforces problems solutions.
 ## String
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/MohamedEmary/problem-solving/tree/master/0020-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/MohamedEmary/problem-solving/tree/master/0049-group-anagrams) |
 ## Sorting
 |  |
@@ -62,4 +63,8 @@ The place where I add my LeetCode and Codeforces problems solutions.
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/MohamedEmary/problem-solving/tree/master/0128-longest-consecutive-sequence) |
+## Stack
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/MohamedEmary/problem-solving/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
