@@ -10,6 +10,7 @@ The place where I add my LeetCode and Codeforces problems solutions.
 | [0001-two-sum](https://github.com/MohamedEmary/problem-solving/tree/master/0001-two-sum) |
 | [0036-valid-sudoku](https://github.com/MohamedEmary/problem-solving/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/MohamedEmary/problem-solving/tree/master/0049-group-anagrams) |
+| [0128-longest-consecutive-sequence](https://github.com/MohamedEmary/problem-solving/tree/master/0128-longest-consecutive-sequence) |
 | [0238-product-of-array-except-self](https://github.com/MohamedEmary/problem-solving/tree/master/0238-product-of-array-except-self) |
 | [0347-top-k-frequent-elements](https://github.com/MohamedEmary/problem-solving/tree/master/0347-top-k-frequent-elements) |
 ## Hash Table
@@ -18,6 +19,7 @@ The place where I add my LeetCode and Codeforces problems solutions.
 | [0001-two-sum](https://github.com/MohamedEmary/problem-solving/tree/master/0001-two-sum) |
 | [0036-valid-sudoku](https://github.com/MohamedEmary/problem-solving/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/MohamedEmary/problem-solving/tree/master/0049-group-anagrams) |
+| [0128-longest-consecutive-sequence](https://github.com/MohamedEmary/problem-solving/tree/master/0128-longest-consecutive-sequence) |
 | [0347-top-k-frequent-elements](https://github.com/MohamedEmary/problem-solving/tree/master/0347-top-k-frequent-elements) |
 ## String
 |  |
@@ -56,4 +58,8 @@ The place where I add my LeetCode and Codeforces problems solutions.
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/MohamedEmary/problem-solving/tree/master/0036-valid-sudoku) |
+## Union Find
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/MohamedEmary/problem-solving/tree/master/0128-longest-consecutive-sequence) |
 <!---LeetCode Topics End-->
