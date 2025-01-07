@@ -1,0 +1,7 @@
+1. Collision (Chaining and Open addressing)
+2. Hash functions and how they work
+3. Array rehashing
+4. Retrieving values from a hash table when using chaining and open addressing
+5. Why it's better for the hash map size to be a prime number https://stackoverflow.com/a/3980446
+6. Implementing hash table in JS
+7. Implementing dynamic array in JS
