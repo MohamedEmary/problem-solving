@@ -67,4 +67,9 @@ The place where I add my LeetCode and Codeforces problems solutions.
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/MohamedEmary/problem-solving/tree/master/0020-valid-parentheses) |
+| [0155-min-stack](https://github.com/MohamedEmary/problem-solving/tree/master/0155-min-stack) |
+## Design
+|  |
+| ------- |
+| [0155-min-stack](https://github.com/MohamedEmary/problem-solving/tree/master/0155-min-stack) |
 <!---LeetCode Topics End-->
