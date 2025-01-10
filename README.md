@@ -14,6 +14,7 @@ The place where I add my LeetCode and Codeforces problems solutions.
 | [0150-evaluate-reverse-polish-notation](https://github.com/MohamedEmary/problem-solving/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0238-product-of-array-except-self](https://github.com/MohamedEmary/problem-solving/tree/master/0238-product-of-array-except-self) |
 | [0347-top-k-frequent-elements](https://github.com/MohamedEmary/problem-solving/tree/master/0347-top-k-frequent-elements) |
+| [0739-daily-temperatures](https://github.com/MohamedEmary/problem-solving/tree/master/0739-daily-temperatures) |
 ## Hash Table
 |  |
 | ------- |
@@ -70,6 +71,7 @@ The place where I add my LeetCode and Codeforces problems solutions.
 | [0020-valid-parentheses](https://github.com/MohamedEmary/problem-solving/tree/master/0020-valid-parentheses) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/MohamedEmary/problem-solving/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/MohamedEmary/problem-solving/tree/master/0155-min-stack) |
+| [0739-daily-temperatures](https://github.com/MohamedEmary/problem-solving/tree/master/0739-daily-temperatures) |
 ## Design
 |  |
 | ------- |
@@ -78,4 +80,8 @@ The place where I add my LeetCode and Codeforces problems solutions.
 |  |
 | ------- |
 | [0150-evaluate-reverse-polish-notation](https://github.com/MohamedEmary/problem-solving/tree/master/0150-evaluate-reverse-polish-notation) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0739-daily-temperatures](https://github.com/MohamedEmary/problem-solving/tree/master/0739-daily-temperatures) |
 <!---LeetCode Topics End-->
