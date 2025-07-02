@@ -9,6 +9,7 @@ The place where I add my LeetCode and Codeforces problems solutions.
 | ------- |
 | [0001-two-sum](https://github.com/MohamedEmary/problem-solving/tree/master/0001-two-sum) |
 | [0015-3sum](https://github.com/MohamedEmary/problem-solving/tree/master/0015-3sum) |
+| [0027-remove-element](https://github.com/MohamedEmary/problem-solving/tree/master/0027-remove-element) |
 | [0036-valid-sudoku](https://github.com/MohamedEmary/problem-solving/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/MohamedEmary/problem-solving/tree/master/0049-group-anagrams) |
 | [0128-longest-consecutive-sequence](https://github.com/MohamedEmary/problem-solving/tree/master/0128-longest-consecutive-sequence) |
@@ -91,6 +92,7 @@ The place where I add my LeetCode and Codeforces problems solutions.
 |  |
 | ------- |
 | [0015-3sum](https://github.com/MohamedEmary/problem-solving/tree/master/0015-3sum) |
+| [0027-remove-element](https://github.com/MohamedEmary/problem-solving/tree/master/0027-remove-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/MohamedEmary/problem-solving/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 ## Binary Search
 |  |
