@@ -240,3 +240,12 @@ Be extra careful with variable data types and their limits. This caused multiple
 | `float`              |      4       | \~±3.4e38 (**7 digits precision**)       |
 | `double`             |      8       | \~±1.7e308 (**15 digits precision**)     |
 | `long double`        |      16      | \~±1.2e4932 (**18–19 digits precision**) |
+
+## Problems to Review
+
+1. [K - Wizards' Duel CodeForces 591A](https://vjudge.net/contest/745956#problem/K)
+   - [Review this explaination](https://g.co/gemini/share/ac29e68bfae0)
+2. [Q - Theatre Square CodeForces 1A](https://vjudge.net/contest/745956#problem/Q)
+   - For the data types issue.
+3. [P - Watermelon CodeForces 4A](https://vjudge.net/contest/745956#problem/P)
+   - The weight must be an even number greater than 2.

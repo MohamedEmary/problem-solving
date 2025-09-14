@@ -1,3 +1,5 @@
+// TODO: Add notes on this problem on the pdf
+// refactor datatypes
 #include <bits/stdc++.h>
 using namespace std;
 
