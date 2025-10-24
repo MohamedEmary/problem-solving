@@ -2,3 +2,7 @@ draft/
 .vscode
 *.out
 test.*
+problem-pdf
+todo.md
+tempCodeRunnerFile.*
+*.tldr
